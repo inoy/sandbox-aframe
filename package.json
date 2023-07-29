@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "aframe": "^1.4.2"
+  },
+  "volta": {
+    "node": "18.17.0",
+    "npm": "9.6.7"
   }
 }
