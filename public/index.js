@@ -1,3 +1,4 @@
+// noinspection JSUnusedGlobalSymbols, JSUnusedLocalSymbols
 AFRAME.registerComponent('drag-raise', {
     init: function () {
         this.initialY = 0;
