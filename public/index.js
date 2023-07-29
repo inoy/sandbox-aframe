@@ -39,8 +39,8 @@ AFRAME.registerComponent('drag-raise', {
     },
 
     onTouchMove: function (evt) {
+        console.log('Touch move detected');  // 追加
         evt.preventDefault();
-
         if (!this.startingY) return;
         let deltaY = this.startingY - evt.changedTouches[0].clientY;
         this.el.setAttribute('position', {
